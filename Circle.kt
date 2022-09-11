@@ -1,3 +1,3 @@
-open class Circle {
-    class Circle constructor(val name: String, val radius: Int?)
+open class Circle(radius: Int) {
+    class Circle constructor(val radius: Int? = null)
 }

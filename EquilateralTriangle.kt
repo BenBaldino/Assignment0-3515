@@ -1,3 +1,3 @@
-open class EquilateralTriangle {
-    class EqualTriangle constructor(val name: String, val side: Int?)
+open class EquilateralTriangle(equalSide: Int) {
+    class EqualTriangle constructor(val side: Int? = null)
 }

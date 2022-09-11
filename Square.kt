@@ -1,3 +1,3 @@
-open class Square {
-    class Square constructor(val name: String, val height: Int? = null, val width: Int?)
+open class Square(height: Int, width: Int) {
+    class Square constructor(val height: Int? = null, val width: Int? = null)
 }
